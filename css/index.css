@@ -16,6 +16,7 @@
 @import '../css/layout.css';
 @import '../css/scrollbar.css';
 @import '../css/login-button.css';
+@import '../css/login-button2.css';
 :root { 
   --primary: #00b050; 
   --white: #ffffff; 

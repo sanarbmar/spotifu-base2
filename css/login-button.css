@@ -9,7 +9,7 @@
     line-height: 0;
     justify-content: space-between;
     border-radius: 1.25rem;
-    background: var(--gray60);
+    background: var(--white);
     padding-inline-end: 0.625rem;
 }
 .Login-nombre{  

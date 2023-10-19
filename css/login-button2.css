@@ -1,0 +1,22 @@
+.Login2{
+    max-inline-size: 11.25rem;
+    width: 100%;
+    block-size: 2rem;   
+    display: flex;
+    gap: .25rem;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    justify-content: center;
+    border-radius: 1.25rem;
+    background: var(--white);
+   
+}
+.Login2  > div{
+    align-self: center;
+}
+
+.Login2 p{
+    color: var(--gray30);
+    font: var(--baseFontBold);
+    line-height: .5rem;
+}

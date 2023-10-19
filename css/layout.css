@@ -18,17 +18,15 @@
 }
 
 .layout-main{
-    min-block-size: var(--minBlockSize);
-    block-size: calc(100vh - var(--bottomSize));
-    overflow: auto;
+    min-inline-size: 80%;
+    overflow: hidden;
 }
 
 .layout-bottom{
     flex: 1;  /* super importante , par que se xpanda */
-    block-size: var(--bottomSize);
 }
 
 .layout-block{
     display: flex;
-
+  /*   justify-content: space-between; */
 }
