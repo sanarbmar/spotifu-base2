@@ -1,0 +1,33 @@
+@import '../css/slider.css';
+@import '../css/player-controls.css';
+@import '../css/player-playback.css';
+@import '../css/player-volumen.css';
+@import '../css/now-playing.css';
+
+/* cuando quieras componer componentes, pon un contenedor a cada una de sus partes */
+.player{
+    display: flex;
+    gap: 1.5rem;
+    padding: 1rem;
+    box-shadow: inset px 1px 0 var(--gray30);
+   
+}
+/* selector de hijo directo */
+.player > * {
+    flex: 1;
+}
+.player-control{
+    border: none;
+    padding: none;
+    background: none;
+    color: var(--gray10);
+    font-size: 1rem; /* como es icono el tamaño se pone con font size, ojo en figma con el vector. */
+    padding: .5rem;
+    cursor: pointer;
+}
+
+.player-playerVolume{
+
+    display: flex;
+    justify-content: flex-end;
+}

@@ -1,0 +1,34 @@
+:root{
+    --sidebarInlineSize:15rem;
+    --minBlockSize:37.5rem;
+    --minInlineSize:48rem;
+    --bottomSize:5.5rem;
+}
+.layout{
+    
+    min-inline-size: var(--minInlineSize);
+}
+
+.layout-sidebar{
+    min-block-size: var(--minBlockSize);
+    block-size: calc(100vh - var(--bottomSize));
+    inline-size: var(--sidebarInlineSize);
+    overflow: auto;
+    flex-shrink:0 ;  /* no te hagas mas pequeño de esto */
+}
+
+.layout-main{
+    min-block-size: var(--minBlockSize);
+    block-size: calc(100vh - var(--bottomSize));
+    overflow: auto;
+}
+
+.layout-bottom{
+    flex: 1;  /* super importante , par que se xpanda */
+    block-size: var(--bottomSize);
+}
+
+.layout-block{
+    display: flex;
+
+}

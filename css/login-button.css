@@ -1,0 +1,61 @@
+.Login{
+    max-inline-size: 11.25rem;
+    width: 100%;
+    block-size: 2rem;   
+    display: flex;
+    gap: .25rem;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    line-height: 0;
+    justify-content: space-between;
+    border-radius: 1.25rem;
+    background: var(--gray60);
+    padding-inline-end: 0.625rem;
+}
+.Login-nombre{  
+    /* border: 2px solid green !important; */
+    margin-left: 2.125rem;
+}
+
+.Login  > div{
+    align-self: center;
+}
+/* .Login input{
+    border-radius: 1.25rem;
+    border: none;
+    max-inline-size: 11.25rem;
+    width: 100%;  tamaños intrinsicos, se pone el 100 paa qque se expanda el tamaño
+    block-size: 2rem;
+    background: var(--gray60);
+    border: 1px solid blue;
+   
+} */
+.Login p{
+    color: var(--white);
+    font: var(--baseFont);
+    margin: 0;
+    line-height: 0;
+}
+.Login i{
+    font-size: .625rem;
+    color: var(--white);
+}
+
+.imagen-container{
+    /* border: 1px solid pink; */
+    block-size: 1.75rem;
+    inline-size: 1.75rem;
+    position: absolute;
+    padding-inline-start: .125rem;
+    padding-block-start: .125rem;
+    padding-block-end: .125rem;
+   /*  left: .125rem;
+    top: .125rem;
+    bottom: .125rem; */
+}
+
+.imagen-container img{
+    border-radius: 100%;
+    inline-size: 100%;
+    
+}

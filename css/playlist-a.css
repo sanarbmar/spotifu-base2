@@ -1,0 +1,54 @@
+.playlistA{
+    inline-size: 13em; /* 1 em---14px */
+    padding: 1rem;
+    border-radius: .25rem;
+    background: var(--gray40);
+    box-sizing: border-box; /* para que el rem del pading no se le reste */
+    transition: .3s background;
+}
+
+/* por cuestiones de acceciobilidad se pone el focus para que cn el tab lo encuentre */
+.playlistA:hover, .playlistA:focus-within{
+    background: var(--gray30);
+    cursor: pointer;
+}
+
+.playlistA:hover .playlistA-cover button,
+.playlistA:focus-within .playlistA-cover button{
+    opacity: 1;
+    transform: translate(0);
+}
+
+.playlistA-cover img{
+    vertical-align: middle; /* para quitar el espacio de las imagens , por eso quedaba el boton por afuera*/
+    inline-size: 100%;
+    block-size: auto;
+
+}
+.playlistA-cover{
+    position: relative;
+    border-radius: .75rem;
+    overflow: hidden; /* para que no se desborde la imagen */
+    margin-block-end: 1rem;
+}
+.playlistA button{
+    position: absolute;
+    right: .5rem;
+    bottom: .5rem;
+    opacity: 0;
+    transform: translateY(.5rem); /* pequeña trancicion que hace que se mueva en Y */
+    will-change: opacity, transform;
+    transition: .3s opacity, .3s transform; /* pequeña animacion con opacity */
+}
+
+
+.playlistA-title{
+    font: var(--baseFontBold);
+    color: var(--white);
+    margin: 0;
+}
+.playlistA-description{
+    font: var(--baseFont);
+    color: var(--white);
+    margin: 0;
+}
