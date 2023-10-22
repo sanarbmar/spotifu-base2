@@ -25,6 +25,7 @@
     width: 100%; /* tamaños intrinsicos, se pone el 100 paa qque se expanda el tamaño */
     padding: .5rem;
     padding-inline-start: 2rem;
+    margin-inline-end: 28.875rem;
     color: var(--gray30);
 }
 

@@ -1,0 +1,153 @@
+.title{
+    font: var(--baseFont);
+    color: var(--gray10);
+  }
+  
+  .title-2{
+    font: var(--baseFont);
+    color: var(--white);
+  }
+  
+  .details-play{
+    inline-size: 44px ;
+    margin-inline-start: 14px;
+    margin-inline-end: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .details-heart{
+    inline-size: 44px ;
+    flex-basis: content;
+    display: flex;
+    align-items: center;
+    padding-inline-end: .4rem;
+    color: white;
+  }
+  .details-title{
+    inline-size: 20.1875rem ;
+    block-size: 44px;
+    display: flex;
+    align-items: center;
+    margin-inline-start: 10px;
+  }
+  .details-artista{
+    inline-size: 17.125rem;
+    block-size: 44px;
+    display: flex;
+    align-items: center;
+    margin-inline-start: 10px;
+  }
+  
+  .details-album{
+    inline-size: 17.125rem ;
+    block-size: 44px;
+    display: flex;
+    align-items: center;
+    margin-inline-start: 10px;
+  }
+  
+  .details-calendarIcon{
+    inline-size: 5.625rem;
+    block-size: 44px;
+    display: flex;
+    align-items: center;
+    padding-inline: 10px;
+    margin-inline-start: 10px;
+  }
+  .details-timeIcon{
+    inline-size: 2.9375rem;
+    block-size: 44px;
+    display: flex;
+    align-items: center;
+    margin-inline-start: 10px;
+  }
+  
+  .details-cover{
+    display: flex;
+   /*  border: 2px solid orangered; */
+    padding-inline-start: 88px;
+  }
+  .details-song{
+    display: flex;
+   /*  border: 2px solid orangered; */
+    
+  }
+  
+  
+  .playList-list{
+    /* border: 5px pink dashed; */
+    block-size: 35.5rem;
+    display: flex;
+    flex-direction: column;
+    overflow-y:auto;
+  }
+  
+  .search2{
+    display: flex;
+    justify-content: center;
+    gap: .55rem;
+    line-height: 0;
+    block-size: 100%;
+    margin-inline-start: .55rem;
+  }
+  .search2 i{
+    align-self: center;
+    color: var(--white);
+  }
+  
+  .playList-search input {
+    font: var(--baseFont);
+    margin: 0;
+    border: none;
+    inline-size: 100%;
+    background-color: transparent;
+    color: var(--gray10);
+  }
+  
+  .playList-search {
+    /* border: 5px pink dashed; */
+    block-size: 2rem;
+  }
+  
+  .playList-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 5px pink dashed; */
+    block-size: 18.51rem;
+    
+  }
+  
+  .playList-title-son {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+    /* border: 4px dashed red; */
+    inline-size: 20.5rem;
+    block-size: 9.5rem;
+  }
+  
+  .playList-title-son h1 {
+    font: var(--headline1);
+    margin: 0;
+    color: var(--white);
+  }
+  
+  .playList-title-son p {
+    font: var(--baseFont);
+    margin: 0;
+    color: var(--white);
+    text-align: center;
+  }
+  
+  .reproducir {
+    border-radius: 4.37rem;
+    padding-block: .5rem;
+    padding-inline: 2rem;
+    font: var(--button);
+    background-color: var(--primary);
+    color: var(--white);
+    border: none;
+  }

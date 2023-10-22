@@ -30,3 +30,33 @@
 .buttonIcon:hover:is([class*='is-']){
     box-shadow: 0 8px 8px rgba(0, 0, 0, .3);
 }
+
+.buttonIcon-2{    
+    inline-size: 1.5rem;
+    block-size: 1.5rem;
+    background: transparent;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    color: var(--gray10);
+}
+.buttonIcon-2.is-white{
+    background: rgba(23, 23, 23, .5);
+    color: var(--white);
+    border: 1px solid white;
+}
+
+.buttonIcon-2 .icon-play{
+    position: relative;
+    bottom: 2px;
+    left: 1px;
+    font-size: 7.13px;
+}
+
+.buttonIcon-2:active{
+    transform: scale(.95); 
+}
+
+.buttonIcon-2:hover:is([class*='is-']){
+    box-shadow: 0 8px 8px rgba(0, 0, 0, .3);
+}
