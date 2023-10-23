@@ -10,7 +10,7 @@
   
   .details-play{
     inline-size: 44px ;
-    margin-inline-start: 14px;
+    margin-inline-start: 1.375rem;
     margin-inline-end: 20px;
     display: flex;
     align-items: center;
@@ -65,7 +65,7 @@
   .details-cover{
     display: flex;
    /*  border: 2px solid orangered; */
-    padding-inline-start: 88px;
+    padding-inline-start: 6.4375rem;
   }
   .details-song{
     display: flex;
@@ -88,7 +88,7 @@
     gap: .55rem;
     line-height: 0;
     block-size: 100%;
-    margin-inline-start: .55rem;
+    margin-inline-start: 1.375rem;
   }
   .search2 i{
     align-self: center;
@@ -105,29 +105,43 @@
   }
   
   .playList-search {
-    /* border: 5px pink dashed; */
+   /*  border: 1px pink dashed; */
     block-size: 2rem;
   }
   
   .playList-title {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    /* border: 5px pink dashed; */
-    block-size: 18.51rem;
+   /*  border: 1px pink dashed; */
+    margin-block-start: 1.5rem;
     
   }
+  .espacio{
+    margin-inline-start: 1.375rem;
+    margin-inline-end: 1.5rem;
+    background-image: url('../images/badBunnycover.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   
-  .playList-title-son {
+  .playList-title-son{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 1rem;
-    align-items: center;
-    /* border: 4px dashed red; */
+    /* align-items: center; */
+    /* border: 2px dashed green; */
     inline-size: 20.5rem;
-    block-size: 9.5rem;
+    block-size: 11.43rem;
   }
+
+ /*  .playList-title-son img{
+    inline-size: 100%;
+    block-size: auto;
+    line-height: 0;
+  } */
   
   .playList-title-son h1 {
     font: var(--headline1);
@@ -140,6 +154,7 @@
     margin: 0;
     color: var(--white);
     text-align: center;
+    display: flex;
   }
   
   .reproducir {
@@ -150,4 +165,5 @@
     background-color: var(--primary);
     color: var(--white);
     border: none;
+    inline-size: 9.56rem;
   }

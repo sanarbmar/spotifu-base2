@@ -10,10 +10,7 @@
     padding-inline-end: 2em; */
     padding-block-end: 0;
     block-size: 42rem;
-   /*  border: 4px solid green; */
-    background-image: url('../images/badBunny.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* border: 4px solid green; */
     overflow-y: scroll;
 }
 
@@ -21,7 +18,7 @@
     display: flex;
     flex-direction: column;
     gap: 2em;
-    
+    /* border: 1px dashed red; */
 }
 
 /* .page .header{
