@@ -10,3 +10,5 @@ El proyecto tiene 5 ramas , de las cuales cada una pertenece a 1 pantalla del pr
 Para ver los cambios debe hacer un git chechkout (nombre de la rama), 
 y asi podra ver los cambios que se hicieron en esa rama , por lo que 
 se veran reflejados en el navegador
+
+link: https://main--singular-begonia-19b6ba.netlify.app/
