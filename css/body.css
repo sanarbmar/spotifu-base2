@@ -4,7 +4,7 @@
     font: var(--baseFont);
     margin: 0;
 }
-p{
+p,h3,h1{
     margin: 0;
     padding: 0;
 }
